@@ -4,7 +4,9 @@ import data from "./data/recipes.json";
 
 function App() {
   return (
-    <Menu recipes={data} />
+    <>
+      <Menu recipes={data} />
+    </>
   );
 }
 
